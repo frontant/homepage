@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Anton Horn &#8211; Web Frontend Entwickler</title>
-	</head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anton Horn &#8211; Web Frontend Entwickler</title>
+  <link rel="stylesheet" href="main-1cd7f561fb.css" media="all">
+  <link rel="icon" href="lg.png" sizes="32x32">
+  <link rel="icon" href="lg.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="lg.png">
+  <meta name="msapplication-TileImage" content="lg.png">
+</head>
 
-	<body>
-
+<body>
+  <div is="flynt-layout">
     <header>
       <section is="flynt-hero-image">
+        <div class="image">
+          <img
+            src="images/profile-photo-420x0-c-default.jpg"
+            srcset="images/profile-photo-800x0-c-default.jpg 800w, images/profile-photo-670x0-c-default.jpg 670w, images/profile-photo-420x0-c-default.jpg 420w"
+            alt="" sizes="527px">
+        </div>
         <h1>
           <span class="title">Anton Horn</span>
           <span class="subtitle">Web Frontend Entwickler</span>
         </h1>
-        <ul style="display: none;">
-          <li><a href="https://www.xing.com/profile/Anton_Horn8" class="icon-xing">xing</a></li>
-          <li><a href="https://de.linkedin.com/in/antonhorn" class="icon-linkedin">linkedin</a></li>
-          <li><a href="https://github.com/frontant" class="icon-github-logo">github</a></li>
-        </ul>
-      </section>
-    </header>
-
-    <main>
-      <p>Page under construction</p>
-
-      <div style="display: none;">
-        <h2>ÜBER MICH</h2>
-        <p>Seit 2017 bin ich im Bereich Web Frontend Entwicklung tätig und beschäftige mich mit der Konzeption und der Erstellung von Webanwendungen. Hierbei entwickle ich Webseiten auf WordPress Basis und programmiere statische Templates.</p>
-      </div>
-              
-      <section is="flynt-skills" class="container" style="display: none;">
-        <h2 class="is-h3">Kompetenzen</h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>SCSS</li>
-          <li>SASS</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Next.js</li>
-          <li>Jest</li>
-          <li>Git</li>
-          <li>npm</li>
-          <li>Webpack</li>
-          <li>Gulp</li>
-          <li>Docker</li>
-          <li>Gimp</li>
-          <li>Twig</li>
-          <li>Wordpress</li>
-          <li>Responsive Webdesign</li>
-          <li>Mobile First Design</li>
+          <li><a href="https://www.xing.com/profile/Anton_Horn8" class="icon-xing"></a></li>
+          <li><a href="https://de.linkedin.com/in/antonhorn" class="icon-linkedin"></a></li>
+          <li><a href="https://github.com/frontant" class="icon-github-logo"></a></li>
         </ul>
       </section>
 
-    </main>
-	</body>
+    </header>
+    <nav>
+      <div is="flynt-main-menu">
+      </div>
+    </nav>
+    <div class="main-and-footer">
+      <main>
+        <div is="flynt-block-wysiwyg">
+          <div class="container">
+            <div class="content content--textLeft">
+              <h2>ÜBER MICH</h2>
+              <p>Seit 2017 bin ich im Bereich Web Frontend Entwicklung tätig und
+                beschäftige mich mit der Konzeption und der Erstellung von
+                Webanwendungen. Hierbei entwickle ich Webseiten auf WordPress Basis und
+                programmiere statische Templates.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <section is="flynt-skills" class="container">
+          <h2 class="is-h3">Kompetenzen</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SCSS</li>
+            <li>SASS</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Jest</li>
+            <li>Git</li>
+            <li>npm</li>
+            <li>Webpack</li>
+            <li>Gulp</li>
+            <li>Docker</li>
+            <li>Gimp</li>
+            <li>Twig</li>
+            <li>Wordpress</li>
+            <li>Responsive Webdesign</li>
+            <li>Mobile First Design</li>
+          </ul>
+        </section>
+
+      </main>
+      <footer>
+        <div is="flynt-footer" class="container">
+        </div>
+
+      </footer>
+    </div>
+  </div>
+</body>
 </html>
